@@ -28,6 +28,12 @@ local position_ascenseur_4 = {
 
 --===================================================================================================================
 -- Ascenseur n°1
+mainMenu1 = NativeUI.CreateMenu("Ascenseur", "~b~Ascenseur")
+_menuPool:Add(mainMenu1)
+_menuPool:MouseControlsEnabled (false);
+_menuPool:MouseEdgeEnabled (false);
+_menuPool:ControlDisablingEnabled(false);
+
 function etage(menu)
 		--1
 		local click = NativeUI.CreateItem("Etage 2", "~g~Aller à l'étage 2")
@@ -112,6 +118,9 @@ Citizen.CreateThread(function ()
 		end
 	end
 end)
+
+etage(mainMenu1)
+_menuPool:RefreshIndex()
 
 --===================================================================================================================
 -- Ascenseur n°2
