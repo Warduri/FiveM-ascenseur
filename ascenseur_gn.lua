@@ -36,13 +36,13 @@ _menuPool:ControlDisablingEnabled(false);
 
 function etage(menu)
 		--1
-		local click = NativeUI.CreateItem("Etage 2", "~g~Aller à l'étage 2")
+		local click = NativeUI.CreateItem("Etage RDC", "~g~Aller à l'étage RDC")
 		menu:AddItem(click)
 		--2
 		local click = NativeUI.CreateItem("Etage 1", "~g~Aller à l'étage 1")
 		menu:AddItem(click)
 		--3
-		local click = NativeUI.CreateItem("Etage RDC", "~g~Aller à l'étage RDC")
+		local click = NativeUI.CreateItem("Etage 2", "~g~Aller à l'étage 2")
 		menu:AddItem(click)
 		
 		menu.OnItemSelect = function(sender, item, index)
@@ -132,13 +132,13 @@ _menuPool:ControlDisablingEnabled(false);
 
 function etage2(menu)
 		--1
-		local click = NativeUI.CreateItem("Etage 2", "~g~Aller à l'étage 2")
+		local click = NativeUI.CreateItem("Etage RDC", "~g~Aller à l'étage RDC")
 		menu:AddItem(click)
 		--2
 		local click = NativeUI.CreateItem("Etage 1", "~g~Aller à l'étage 1")
 		menu:AddItem(click)
 		--3
-		local click = NativeUI.CreateItem("Etage RDC", "~g~Aller à l'étage RDC")
+		local click = NativeUI.CreateItem("Etage 2", "~g~Aller à l'étage 2")
 		menu:AddItem(click)
 		
 		menu.OnItemSelect = function(sender, item, index)
@@ -228,13 +228,13 @@ _menuPool:ControlDisablingEnabled(false);
 
 function etage3(menu)
 		--1
-		local click = NativeUI.CreateItem("Etage 2", "~g~Aller à l'étage 2")
+		local click = NativeUI.CreateItem("Etage RDC", "~g~Aller à l'étage RDC")
 		menu:AddItem(click)
 		--2
 		local click = NativeUI.CreateItem("Etage 1", "~g~Aller à l'étage 1")
 		menu:AddItem(click)
 		--3
-		local click = NativeUI.CreateItem("Etage RDC", "~g~Aller à l'étage RDC")
+		local click = NativeUI.CreateItem("Etage 2", "~g~Aller à l'étage 2")
 		menu:AddItem(click)
 		
 		menu.OnItemSelect = function(sender, item, index)
@@ -324,13 +324,13 @@ _menuPool:ControlDisablingEnabled(false);
 
 function etage4(menu)
 		--1
-		local click = NativeUI.CreateItem("Etage 2", "~g~Aller à l'étage 2")
+		local click = NativeUI.CreateItem("Etage RDC", "~g~Aller à l'étage RDC")
 		menu:AddItem(click)
 		--2
 		local click = NativeUI.CreateItem("Etage 1", "~g~Aller à l'étage 1")
 		menu:AddItem(click)
 		--3
-		local click = NativeUI.CreateItem("Etage RDC", "~g~Aller à l'étage RDC")
+		local click = NativeUI.CreateItem("Etage 2", "~g~Aller à l'étage 2")
 		menu:AddItem(click)
 		
 		menu.OnItemSelect = function(sender, item, index)
