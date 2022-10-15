@@ -124,7 +124,13 @@ _menuPool:RefreshIndex()
 
 --===================================================================================================================
 -- Ascenseur n°2
-function etage(menu)
+mainMenu2 = NativeUI.CreateMenu("Ascenseur", "~b~Ascenseur")
+_menuPool:Add(mainMenu2)
+_menuPool:MouseControlsEnabled (false);
+_menuPool:MouseEdgeEnabled (false);
+_menuPool:ControlDisablingEnabled(false);
+
+function etage2(menu)
 		--1
 		local click = NativeUI.CreateItem("Etage 2", "~g~Aller à l'étage 2")
 		menu:AddItem(click)
@@ -139,18 +145,21 @@ function etage(menu)
 		
 		if index == 1 then
 			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_2[1], false, false, false, true)
-			mainMenu1:Visible(not mainMenu1:Visible())
+			mainMenu2:Visible(not mainMenu2:Visible())
 		end
 		if index == 2 then
 			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_2[2], false, false, false, true)
-			mainMenu1:Visible(not mainMenu1:Visible())
+			mainMenu2:Visible(not mainMenu2:Visible())
 		end
 		if index == 3 then
 			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_2[3], false, false, false, true)
-			mainMenu1:Visible(not mainMenu1:Visible())
+			mainMenu2:Visible(not mainMenu2:Visible())
 		end
 	end
 end
+
+etage2(mainMenu2)
+_menuPool:RefreshIndex()
 
 --RDC
 Citizen.CreateThread(function ()
@@ -165,7 +174,7 @@ Citizen.CreateThread(function ()
 			DrawSubtitle("Appuis sur [~g~E~s~] pour utliser l'ascenseur")
 			_menuPool:ProcessMenus()
 			if IsControlJustPressed(1, 51) then
-				mainMenu1:Visible(not mainMenu1:Visible())
+				mainMenu2:Visible(not mainMenu2:Visible())
 			end
 		end
 	end
@@ -184,7 +193,7 @@ Citizen.CreateThread(function ()
 			DrawSubtitle("Appuis sur [~g~E~s~] pour utliser l'ascenseur")
 			_menuPool:ProcessMenus()
 			if IsControlJustPressed(1, 51) then
-				mainMenu1:Visible(not mainMenu1:Visible())
+				mainMenu2:Visible(not mainMenu2:Visible())
 			end
 		end
 	end
@@ -203,7 +212,7 @@ Citizen.CreateThread(function ()
 			DrawSubtitle("Appuis sur [~g~E~s~] pour utliser l'ascenseur")
 			_menuPool:ProcessMenus()
 			if IsControlJustPressed(1, 51) then
-				mainMenu1:Visible(not mainMenu1:Visible())
+				mainMenu2:Visible(not mainMenu2:Visible())
 			end
 		end
 	end
@@ -211,7 +220,13 @@ end)
 
 --===================================================================================================================
 -- Ascenseur n°3
-function etage(menu)
+mainMenu3 = NativeUI.CreateMenu("Ascenseur", "~b~Ascenseur")
+_menuPool:Add(mainMenu3)
+_menuPool:MouseControlsEnabled (false);
+_menuPool:MouseEdgeEnabled (false);
+_menuPool:ControlDisablingEnabled(false);
+
+function etage3(menu)
 		--1
 		local click = NativeUI.CreateItem("Etage 2", "~g~Aller à l'étage 2")
 		menu:AddItem(click)
@@ -226,18 +241,21 @@ function etage(menu)
 		
 		if index == 1 then
 			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_3[1], false, false, false, true)
-			mainMenu1:Visible(not mainMenu1:Visible())
+			mainMenu3:Visible(not mainMenu3:Visible())
 		end
 		if index == 2 then
 			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_3[2], false, false, false, true)
-			mainMenu1:Visible(not mainMenu1:Visible())
+			mainMenu3:Visible(not mainMenu3:Visible())
 		end
 		if index == 3 then
 			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_3[3], false, false, false, true)
-			mainMenu1:Visible(not mainMenu1:Visible())
+			mainMenu3:Visible(not mainMenu3:Visible())
 		end
 	end
 end
+
+etage3(mainMenu3)
+_menuPool:RefreshIndex()
 
 --RDC
 Citizen.CreateThread(function ()
@@ -252,7 +270,7 @@ Citizen.CreateThread(function ()
 			DrawSubtitle("Appuis sur [~g~E~s~] pour utliser l'ascenseur")
 			_menuPool:ProcessMenus()
 			if IsControlJustPressed(1, 51) then
-				mainMenu1:Visible(not mainMenu1:Visible())
+				mainMenu3:Visible(not mainMenu3:Visible())
 			end
 		end
 	end
@@ -271,7 +289,7 @@ Citizen.CreateThread(function ()
 			DrawSubtitle("Appuis sur [~g~E~s~] pour utliser l'ascenseur")
 			_menuPool:ProcessMenus()
 			if IsControlJustPressed(1, 51) then
-				mainMenu1:Visible(not mainMenu1:Visible())
+				mainMenu3:Visible(not mainMenu3:Visible())
 			end
 		end
 	end
@@ -290,7 +308,7 @@ Citizen.CreateThread(function ()
 			DrawSubtitle("Appuis sur [~g~E~s~] pour utliser l'ascenseur")
 			_menuPool:ProcessMenus()
 			if IsControlJustPressed(1, 51) then
-				mainMenu1:Visible(not mainMenu1:Visible())
+				mainMenu3:Visible(not mainMenu3:Visible())
 			end
 		end
 	end
@@ -298,7 +316,13 @@ end)
 
 --===================================================================================================================
 -- Ascenseur n°4
-function etage(menu)
+mainMenu4 = NativeUI.CreateMenu("Ascenseur", "~b~Ascenseur")
+_menuPool:Add(mainMenu4)
+_menuPool:MouseControlsEnabled (false);
+_menuPool:MouseEdgeEnabled (false);
+_menuPool:ControlDisablingEnabled(false);
+
+function etage4(menu)
 		--1
 		local click = NativeUI.CreateItem("Etage 2", "~g~Aller à l'étage 2")
 		menu:AddItem(click)
@@ -313,18 +337,21 @@ function etage(menu)
 		
 		if index == 1 then
 			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_4[1], false, false, false, true)
-			mainMenu1:Visible(not mainMenu1:Visible())
+			mainMenu4:Visible(not mainMenu4:Visible())
 		end
 		if index == 2 then
 			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_4[2], false, false, false, true)
-			mainMenu1:Visible(not mainMenu1:Visible())
+			mainMenu4:Visible(not mainMenu4:Visible())
 		end
 		if index == 3 then
 			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_4[3], false, false, false, true)
-			mainMenu1:Visible(not mainMenu1:Visible())
+			mainMenu4:Visible(not mainMenu4:Visible())
 		end
 	end
 end
+
+etage4(mainMenu4)
+_menuPool:RefreshIndex()
 
 --RDC
 Citizen.CreateThread(function ()
@@ -339,7 +366,7 @@ Citizen.CreateThread(function ()
 			DrawSubtitle("Appuis sur [~g~E~s~] pour utliser l'ascenseur")
 			_menuPool:ProcessMenus()
 			if IsControlJustPressed(1, 51) then
-				mainMenu1:Visible(not mainMenu1:Visible())
+				mainMenu4:Visible(not mainMenu4:Visible())
 			end
 		end
 	end
@@ -358,7 +385,7 @@ Citizen.CreateThread(function ()
 			DrawSubtitle("Appuis sur [~g~E~s~] pour utliser l'ascenseur")
 			_menuPool:ProcessMenus()
 			if IsControlJustPressed(1, 51) then
-				mainMenu1:Visible(not mainMenu1:Visible())
+				mainMenu4:Visible(not mainMenu4:Visible())
 			end
 		end
 	end
@@ -377,7 +404,7 @@ Citizen.CreateThread(function ()
 			DrawSubtitle("Appuis sur [~g~E~s~] pour utliser l'ascenseur")
 			_menuPool:ProcessMenus()
 			if IsControlJustPressed(1, 51) then
-				mainMenu1:Visible(not mainMenu1:Visible())
+				mainMenu4:Visible(not mainMenu4:Visible())
 			end
 		end
 	end
