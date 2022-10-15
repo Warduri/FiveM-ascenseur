@@ -48,15 +48,15 @@ function etage(menu)
 		menu.OnItemSelect = function(sender, item, index)
 		
 		if index == 1 then
-			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_1[1], false, false, false, true)
+			SetEntityCoords(GetPlayerPed(-1), 2504.32, -342.08, 93.09, false, false, false, true)
 			mainMenu1:Visible(not mainMenu1:Visible())
 		end
 		if index == 2 then
-			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_1[2], false, false, false, true)
+			SetEntityCoords(GetPlayerPed(-1), 2504.32, -342.08, 100.89, false, false, false, true)
 			mainMenu1:Visible(not mainMenu1:Visible())
 		end
 		if index == 3 then
-			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_1[3], false, false, false, true)
+			SetEntityCoords(GetPlayerPed(-1), 2504.32, -342.08, 104.7, false, false, false, true)
 			mainMenu1:Visible(not mainMenu1:Visible())
 		end
 	end
@@ -144,15 +144,15 @@ function etage2(menu)
 		menu.OnItemSelect = function(sender, item, index)
 		
 		if index == 1 then
-			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_2[1], false, false, false, true)
+			SetEntityCoords(GetPlayerPed(-1), 2502.12, -339.77, 93.09, false, false, false, true)
 			mainMenu2:Visible(not mainMenu2:Visible())
 		end
 		if index == 2 then
-			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_2[2], false, false, false, true)
+			SetEntityCoords(GetPlayerPed(-1), 2502.12, -339.77, 100.89, false, false, false, true)
 			mainMenu2:Visible(not mainMenu2:Visible())
 		end
 		if index == 3 then
-			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_2[3], false, false, false, true)
+			SetEntityCoords(GetPlayerPed(-1), 2502.12, -339.77, 104.7, false, false, false, true)
 			mainMenu2:Visible(not mainMenu2:Visible())
 		end
 	end
@@ -240,15 +240,15 @@ function etage3(menu)
 		menu.OnItemSelect = function(sender, item, index)
 		
 		if index == 1 then
-			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_3[1], false, false, false, true)
+			SetEntityCoords(GetPlayerPed(-1), 2494.94, -347.05, 93.09, false, false, false, true)
 			mainMenu3:Visible(not mainMenu3:Visible())
 		end
 		if index == 2 then
-			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_3[2], false, false, false, true)
+			SetEntityCoords(GetPlayerPed(-1), 2494.94, -347.05, 100.89, false, false, false, true)
 			mainMenu3:Visible(not mainMenu3:Visible())
 		end
 		if index == 3 then
-			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_3[3], false, false, false, true)
+			SetEntityCoords(GetPlayerPed(-1), 2494.94, -347.05, 104.7, false, false, false, true)
 			mainMenu3:Visible(not mainMenu3:Visible())
 		end
 	end
@@ -336,15 +336,15 @@ function etage4(menu)
 		menu.OnItemSelect = function(sender, item, index)
 		
 		if index == 1 then
-			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_4[1], false, false, false, true)
+			SetEntityCoords(GetPlayerPed(-1), 2497.27, -349.38, 93.09, false, false, false, true)
 			mainMenu4:Visible(not mainMenu4:Visible())
 		end
 		if index == 2 then
-			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_4[2], false, false, false, true)
+			SetEntityCoords(GetPlayerPed(-1), 2497.27, -349.38, 100.89, false, false, false, true)
 			mainMenu4:Visible(not mainMenu4:Visible())
 		end
 		if index == 3 then
-			SetEntityCoords(GetPlayerPed(-1), position_ascenseur_4[3], false, false, false, true)
+			SetEntityCoords(GetPlayerPed(-1), 2497.27, -349.38, 104.7, false, false, false, true)
 			mainMenu4:Visible(not mainMenu4:Visible())
 		end
 	end
